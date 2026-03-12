@@ -48,3 +48,35 @@ alert("App cadastrado!")
 carregarAdmin()
 
 }
+
+async function carregarAdmin(){
+
+let {data} = await supabaseClient
+.from("apps")
+.select("*")
+
+let lista = document.getElementById("lista-admin")
+
+lista.innerHTML=""
+
+data.forEach(app=>{
+
+lista.innerHTML += `
+
+<div style="border:1px solid #ccc;padding:10px;margin:10px">
+
+<h3>${app.nome}</h3>
+
+<img src="${app.imagem}" width="200">
+
+<p>${app.descricao}</p>
+
+</div>
+
+`
+
+})
+
+}
+
+carregarAdmin()
