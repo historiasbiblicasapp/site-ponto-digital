@@ -1,3 +1,11 @@
+const SUPABASE_URL = "sb_publishable_Nj7nsNsAFjlYhuPLqlLPUw_4l9FxqXM"
+const SUPABASE_KEY = "sb_secret_0jrh4ZelcQrx59slPBmFng_ffW6Tdeh"
+
+const supabaseClient = supabase.createClient(
+SUPABASE_URL,
+SUPABASE_KEY
+)
+
 async function salvarApp(){
 
 let nome = document.getElementById("nome").value
