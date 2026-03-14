@@ -1,5 +1,5 @@
-const SUPABASE_URL = "microwasmel@gmail.com's Project"
-const SUPABASE_KEY = "sb_publishable_Nj7nsNsAFjlYhuPLqlLPUw_4l9FxqXMlqsb_publishable_Nj7nsNsAFjlYhuPLqlLPUw_4l9FxqXM"
+const SUPABASE_URL = "https://iyhqcxbhgoonijxsjvew.supabase.co"
+const SUPABASE_KEY = "sb_publishable_Nj7nsNsAFjlYhuPLqlLPUw_4l9FxqXM"
 
 const supabaseClient = supabase.createClient(
 SUPABASE_URL,
