@@ -1,9 +1,9 @@
 const SUPABASE_URL = "https://iyhqcxbhgoonijxsjvew.supabase.co"
-const SUPABASE_KEY = "sb_publishable_Nj7nsNsAFjlYhuPLqlLPUw_4l9FxqXM"
+const SUPABASE_KEY = "sb_publishable_Nj7nsNsAFj1YhuPLqlLPuw_419Fx..."
 
 const supabaseClient = supabase.createClient(
-SUPABASE_URL,
-SUPABASE_KEY
+  SUPABASE_URL,
+  SUPABASE_KEY
 )
 
 async function salvarApp(){
